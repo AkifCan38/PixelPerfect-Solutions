@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Situational Task #1
+Front-End Track:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Company Name: PixelPerfect Solutions
 
-## Available Scripts
+Company Brief:
 
-In the project directory, you can run:
+PixelPerfect Solutions is a digital agency specializing in creating visually stunning and user-friendly websites for clients across various industries.
 
-### `npm start`
+Outcome:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Design and develop a responsive website using React.js for PixelPerfect Solutions. The website should showcase the agency's services, portfolio, and contact information in an engaging and interactive manner. Implement smooth transitions and animations to enhance the user experience. Ensure that the website is accessible and SEO-friendly. Document the website's design, functionality, and deployment process in a README.md file named PixelPerfect-Website, including screenshots and a video demonstration of the website's features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# PixelPerfect Solutions Project 
 
-### `npm test`
+Akif Can DUMAN
+COM20
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Scree Shots My Web Site
+### Some Screen Shots my page
 
-### `npm run build`
+![Screenshot (56)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/303ef722-71fb-499b-ad94-04dab54afd59)
+![Screenshot (57)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/6e170b13-518f-4124-8ed3-799844c10b7d)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot (58)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/4c1ae847-b3a5-4cb6-944c-b47bdf636113)
+![Screenshot (59)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/eddbb60d-8927-4b3a-873a-1cd1cb6dbd91)
+![Screenshot (60)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/47eeb783-0247-4c5f-a35f-d56b38aae4a3)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screen Shots Code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### App.css
+![Screenshot (47)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/47037f79-0283-4631-be36-853f1c85e41d)
+### HeroSection.js
+![Screenshot (54)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/f65c2f67-df97-4dc7-ac42-1d37e637cc34)
+### PortfolioSection.js
+![Screenshot (55)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/e325c671-652f-4107-86c0-650107adbd77)
+### PortfolioSection.css
+![Screenshot (48)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/d944906c-b086-40c9-b317-15f7fcc233b7)
+![Screenshot (49)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/c7133a95-c295-4ae4-894b-6ab34b32c300)
+![Screenshot (50)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/307a9a2f-c0de-4f58-afe2-63d157fa9034)
+### index.css
+![Screenshot (51)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/85fa6b41-6817-4fab-828a-a01decda42a0)
+![Screenshot (52)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/0914f8e2-5d9c-4907-9057-90c7e6cd89a4)
+![Screenshot (53)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/00773646-a435-4ff8-9aa6-afcfac2939fd)
