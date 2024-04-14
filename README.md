@@ -18,7 +18,7 @@ COM20
 
 ## Scree Shots My Web Site and Video
 ### My Page Video
-https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/941c7b28-556d-4f0b-9b05-19cf28a7ba5b
+https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/fcaa2cae-cc02-42da-9689-71356861a436
 ### Some Screen Shots my page
 
 ![Screenshot (56)](https://github.com/AkifCan38/PixelPerfect-Solutions/assets/148538864/303ef722-71fb-499b-ad94-04dab54afd59)
