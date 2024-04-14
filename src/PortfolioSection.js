@@ -33,7 +33,7 @@ function PortfolioSection() {
             <div className="portfolio-container">
                 {}
                 {portfolioItems.map((item, index) => (
-                    <a key={item.id} href="https://github.com/AkifCan38/PixelPerfect-Website/tree/main" className={`portfolio-item ${index === activeIndex ? 'active' : ''}`}>
+                    <a key={item.id} href="https://github.com/AkifCan38/PixelPerfect-Solutions/tree/main" className={`portfolio-item ${index === activeIndex ? 'active' : ''}`}>
                         <img src={item.imageUrl === 'blank' ? '' : item.imageUrl} alt={item.title} />
                         <h3>{item.title}</h3>
                         <p>{item.description}</p>
