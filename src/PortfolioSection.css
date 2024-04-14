@@ -1,0 +1,122 @@
+.portfolio-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #a7cbb3;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 50px;
+}
+
+.portfolio-item h3 {
+    margin-top: 1px;
+    font-size: 1em;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+}
+
+.portfolio-item.active {
+    border-color: #0a1080;
+    box-shadow: 0 4px 6px rgba(16, 0, 0, 0.5);
+}
+
+.portfolio-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-buttons button {
+    margin: 0 10px;
+    padding: 20px;
+    font-size: 0.4em;
+    background-color: #0a1080;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.portfolio-buttons button.prev-button::before {
+    content: '\2039';
+}
+
+.portfolio-buttons button.next-button::before {
+    content: '\203A';
+}
+
+.portfolio-buttons button:hover {
+    background-color: #010003;
+}
+
+
+.portfolio-item:nth-child(1) {
+    width: 750px;
+}
+
+.portfolio-item:nth-child(2) {
+    width: 750px;
+}
+
+.portfolio-item:nth-child(3) {
+    width: 750px;
+}
+.section-title {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #0a1080;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-item {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .portfolio-item img {
+        border-radius: 10px;
+    }
+
+    .portfolio-item h3 {
+        font-size: 1.2em;
+    }
+
+    .portfolio-buttons {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .portfolio-buttons button {
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}
+
+
