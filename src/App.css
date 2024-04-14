@@ -1,38 +1,323 @@
-.App {
+/* App.css */
+
+/* Reset CSS */
+/* Reset CSS */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol, li,
+blockquote,
+figure,
+figcaption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: #5fa910;
+  text-decoration: none;
+  font-size: 50px;
+  padding: 100px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #0a1080;
+}
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 40px;
+  line-height: 1;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000000;
+  color: #747685;
+  line-height: 1.6;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: #fcfcfc;
+  text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+nav {
+  background-color: #000000;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+
+
+.main-content {
+  margin-top: 40px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.section p {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+/* Section styles */
+.section {
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge efekti ekler */
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.section p {
+  line-height: 1.6;
+  color: #000000;
+}
+
+.section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+/* Footer */
+.footer {
+  background-color: #ffffff;
   color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.main-menu-section {
+  text-align: center;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.main-menu-section:hover {
+  transform: scale(1.05);
+}
+.contact-icon {
+  font-size: 50px;
+  color: #0a1080;
+  margin-bottom: 40px;
+
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact-icon {
+  font-size: 100px;
+  margin-right: 20px;
+}
+.main-menu-section {
+  padding: 1px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.main-menu-section h2 {
+  margin-bottom: 50px;
+}
+
+.main-menu-section p {
+  margin-bottom: 1px;
+}
+#hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8px 5;
+  text-align: center;
+}
+
+#hero-section h2 {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+#hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#hero-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.App-header {
+  font-family: "Jersey 10" ;
+  background-color: #000000;
+  color: #0a1080;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@keyframes fadeInAnimation {
+  0% { opacity: 0; filter: grayscale(100%); }
+  100% { opacity: 1; filter: none; }
+}
+
+/* Resmin stili */
+.main-menu-section img {
+  animation: fadeInAnimation 2s ease forwards;
+}
+@media only screen and (max-width: 600px) {
+  nav ul li a {
+    font-size: 30px;
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .container {
+    padding: 10px;
+  }
+
+  .main-content {
+    margin-top: 20px;
+  }
+
+  .section {
+    padding: 10px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+
+  .contact-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .contact-item {
+    margin-right: 50px;
+  }
+
+  .contact-icon {
+    font-size: 60px;
+    margin-right: 10px;
+  }
+
+  .main-menu-section {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main-menu-section h2 {
+    margin-bottom: 30px;
+  }
+
+  .main-menu-section p {
+    margin-bottom: 5px;
+  }
+
+  #hero-section {
+    padding: 5px;
+  }
+
+  #hero-section h2 {
+    font-size: 2em;
+    margin-bottom: 3px;
+  }
+
+  #hero-section p {
+    font-size: 1em;
+    margin-bottom: 10px;
   }
 }
