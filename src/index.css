@@ -1,13 +1,128 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  font-family: "Jersey 10", sans-serif;
+  background-color: #ffffff;
+}
+
+
+h1 {
+  color: #0a1080;
+  font-size: 3em;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: scale(0.3);
+  animation: scaleIn 2s ease forwards;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 5;
+  }
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fcfcfc;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+section h2 {
+  color: #0a1080;
+  margin-bottom: 10px;
+}
+
+
+section p {
+  color: #0a1080;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #0a1080;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+
+  nav ul li {
+    margin-right: 5px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+
+  section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+
+  section p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
+ 
+  footer {
+    padding: 30px 0;
+  }
 }
